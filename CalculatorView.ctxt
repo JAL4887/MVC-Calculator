@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=CalculatorView
+comment1.params=
+comment1.target=CalculatorView()
+comment1.text=\r\n\ What\ is\ going\ to\ be\ displayed\ on\ the\ screen\r\n
+comment2.params=
+comment2.target=int\ getFirstNumber()
+comment2.text=\r\n\ gets\ first\ number\ for\ the\ view\r\n
+comment3.params=
+comment3.target=int\ getSecondNumber()
+comment3.text=\r\n\ gets\ second\ number\ for\ the\ view\r\n
+comment4.params=
+comment4.target=int\ getSolution()
+comment4.text=\r\n\ gets\ sum\ for\ the\ view\r\n
+comment5.params=calcSolution
+comment5.target=void\ setSolution(int)
+comment5.text=\r\n\ sets\ value\ of\ solution\r\n
+comment6.params=listenForCalcButton
+comment6.target=void\ addCalcuationListener(java.awt.event.ActionListener)
+comment6.text=\r\n\ listens\ for\ the\ calcuate\ action\r\n
+comment7.params=errorMessage
+comment7.target=void\ displayErrorMessage(java.lang.String)
+comment7.text=\r\n\ displays\ error\ for\ non\ numerical\ characters\r\n
+numComments=8

@@ -1,4 +1,3 @@
-
 /**
  * 
  * View
@@ -63,7 +62,6 @@ public class CalculatorView extends JFrame
     public void setSolution(int calcSolution)
     {
         solution.setText(Integer.toString(calcSolution));
-
     }
 
     /**
@@ -71,8 +69,7 @@ public class CalculatorView extends JFrame
      */
     void addCalcuationListener(ActionListener listenForCalcButton)
     {
-        calculate.addActionListener(listenerForCalcButton);
-
+        calculate.addActionListener(listenForCalcButton);
     }
 
     /**
