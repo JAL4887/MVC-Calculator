@@ -4,6 +4,9 @@
  * Controller
  *
  */
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 public class CalculatorController
 {
     // instance variables - replace the example below with your own
@@ -18,7 +21,7 @@ public class CalculatorController
         this.theView = theView;
         this.theModel = theModel;
 
-        this.theView.addCalculateListener(new CalculateListener());
+        this.theView.addCalculationListener(new CalculateListener());
     }
 
     /**
@@ -32,16 +35,16 @@ public class CalculatorController
             int firstNumber, secondNumber = 0;
             
             try{
-                fristNumber = theView.getFirstNumber;
-                secondNumber = theView.getSecondNumber;
+                firstNumber = theView.getFirstNumber();
+                secondNumber = theView.getSecondNumber();
                 
                 theModel.addTwoNumbers(firstNumber, secondNumber);
-                theView.setCalcSolution(theModel.sum());
+                theView.setSolution(theModel.getSum());
                 
             }
-            catch(NmberFormatException ex)
+            catch(NumberFormatException ex)
             {
-                theView.distplayErrorMessage("You need to ints");
+                theView.displayErrorMessage("You need to ints");
             }
             
             

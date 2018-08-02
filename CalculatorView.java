@@ -67,7 +67,7 @@ public class CalculatorView extends JFrame
     /**
      * listens for the calcuate action
      */
-    void addCalcuationListener(ActionListener listenForCalcButton)
+    void addCalculationListener(ActionListener listenForCalcButton)
     {
         calculate.addActionListener(listenForCalcButton);
     }
