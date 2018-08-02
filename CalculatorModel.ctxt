@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CalculatorModel
+comment0.text=\r\n\ \r\n\ Model\r\n\r\n
+comment1.params=firstNumber\ secondNumber
+comment1.target=void\ addTwoNumbers(int,\ int)
+comment1.text=\r\n\ method\ adds\ two\ numbers\ together\r\n
+comment2.params=
+comment2.target=int\ getSum()
+comment2.text=\r\n\ provides\ access\ to\ the\ sum\r\n
+numComments=3
